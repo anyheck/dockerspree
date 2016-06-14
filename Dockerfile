@@ -21,7 +21,6 @@ gem install spree_cmd
 #gem 'spree_gateway', '~> 3.1.0.rc1'
 
 
-RUN rails _4.2.6_ new mystore
-RUN cd mystore && \
+RUN rails _4.2.6_ new mystore && \
+cd mystore && \
 spree install --auto-accept
- 
